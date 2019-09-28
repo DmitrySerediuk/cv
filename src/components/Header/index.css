@@ -1,0 +1,12 @@
+header{
+    display: flex;
+}
+
+.header__info{
+    display: flex;
+    flex-direction: column;
+}
+
+.header__menu{
+    display: flex;
+}
