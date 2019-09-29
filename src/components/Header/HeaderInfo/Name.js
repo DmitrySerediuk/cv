@@ -5,7 +5,7 @@ import Container from '@material-ui/core/Container';
 function Name() {
   return (
     <div>
-        Dmitry Serediuk
+        Name: Dmitry Serediuk
     </div>
   );
 }

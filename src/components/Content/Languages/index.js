@@ -2,9 +2,9 @@ import React from 'react';
 
 import ContentRow from '../ContentRow';
 
-export default function Experience() {
+export default function Languages() {
     const dataSet = {
-        title: "Experience",
+        title: "Languages",
         info: "data",
     }
 

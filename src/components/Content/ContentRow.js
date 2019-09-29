@@ -5,6 +5,7 @@ import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
+import './ContentRow.css';
 
 export default function ContentRow(props) {
   const {title, info} = props.data;
@@ -16,7 +17,7 @@ export default function ContentRow(props) {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography className="content__head">{title}</Typography>
+          <Typography>{title}</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>

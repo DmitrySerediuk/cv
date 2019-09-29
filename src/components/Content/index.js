@@ -22,10 +22,10 @@ export default function Content() {
     <content>
       <Summary/>
       <Skills/>
-      <Porfolio/>
-      <Languages/>
-      <Experience/>
       <Education/>
+      <Experience/>
+      {/* <Languages/> */}
+      <Porfolio/>
     </content>
   );
 }

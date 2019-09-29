@@ -1,0 +1,9 @@
+.MuiCollapse-wrapper{
+    background-color: #d3d3d3;
+}
+
+.MuiPaper-root{
+    width: 80%;
+    align-self: center;
+    border: 10px solod black;
+}
